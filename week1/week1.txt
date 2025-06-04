@@ -1,0 +1,1 @@
+Week 1 consists od learning basics and getting familiar with the syntax, modules and functions.
