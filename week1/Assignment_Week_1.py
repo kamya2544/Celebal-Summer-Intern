@@ -19,12 +19,12 @@ def pyramid(rows):
 
 
 try:
-    num_rows = int(input("Enter the number of rows for the patterns: "))
-    if num_rows <= 0:
+    number_of_rows = int(input("Enter the number of rows for the patterns: "))
+    if number_of_rows <= 0:
         print("Please enter a positive integer for the number of rows.")
     else:
-        lower_triangular(num_rows)
-        upper_triangular(num_rows)
-        pyramid(num_rows)
+        lower_triangular(number_of_rows)
+        upper_triangular(number_of_rows)
+        pyramid(number_of_rows)
 except ValueError:
     print("Invalid input. Please enter an integer.")
