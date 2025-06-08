@@ -27,4 +27,4 @@ try:
         upper_triangular(number_of_rows)
         pyramid(number_of_rows)
 except ValueError:
-    print("Invalid input. Please enter an integer.")
+    print("Invalid input.")
